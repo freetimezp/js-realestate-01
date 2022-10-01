@@ -177,10 +177,6 @@ button {
     color: var(--first-color);
 }
 
-.nav__button {
-    display: none;
-}
-
 @media screen and (max-width: 1023px) {
     .nav__menu {
         position: fixed;
@@ -219,7 +215,14 @@ button {
 }
 
 /* Change background header */
+.scroll-header {
+    background-color: var(--body-color);
+    box-shadow: 0 3px 14px var(--body-color);
+}
 
+.scroll-header .nav__logo {
+    color: var(--first-color);
+}
 
 /* Active link */
 
@@ -341,6 +344,10 @@ button {
     box-shadow: 2px 4px 12px hsla(228, 66%, 45%, 0.15);
 }
 
+
+.nav__button {
+    display: none;
+}
 
 /*=============== LOGOS ===============*/
 
