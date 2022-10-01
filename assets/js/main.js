@@ -11,7 +11,17 @@ function scrollHeader() {
 
 window.addEventListener('scroll', scrollHeader);
 /*=============== SWIPER POPULAR ===============*/
-
+let swiperPopular = new Swiper(".popular__container", {
+    loop: true,
+    spaceBetween: 32,
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    }
+});
 
 /*=============== VALUE ACCORDION ===============*/
 

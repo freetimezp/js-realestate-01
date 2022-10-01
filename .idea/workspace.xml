@@ -4,6 +4,7 @@
     <list default="true" id="d8a96fcb-8944-4170-8647-c07884066f3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664557600137</updated>
       <workItem from="1664557601448" duration="948000" />
-      <workItem from="1664618558469" duration="7811000" />
+      <workItem from="1664618558469" duration="12311000" />
     </task>
     <servers />
   </component>
