@@ -73,7 +73,17 @@ function scrollActive() {
 window.addEventListener('scroll', scrollActive);
 
 /*=============== SHOW SCROLL UP ===============*/ 
+function scrollUp() {
+    const scrollUP = document.getElementById('scroll-up');
 
+    if(this.scrollY >= 350) {
+        scrollUP.classList.add('show-scroll');
+    }else{
+        scrollUP.classList.remove('show-scroll');
+    }
+}
+
+window.addEventListener('scroll', scrollUp);
 
 /*=============== DARK LIGHT THEME ===============*/ 
 
