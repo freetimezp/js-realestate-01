@@ -97,18 +97,83 @@ button {
 }
 
 /*=============== THEME ===============*/
+.change-theme {
+    font-size: 1.25rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
+.change-theme:hover {
+    color: var(--first-color);
+}
 
 /*========== Variables Dark theme ==========*/
-
+body.dark-theme {
+    --first-color: hsl(228, 66%, 62%);
+    --second-color: hsl(25, 57%, 54%);
+    --title-color: hsl(228, 8%, 95%);
+    --text-color: hsl(228, 8%, 70%);
+    --border-color: hsl(228, 16%, 14%);
+    --body-color: hsl(228, 12%, 8%);
+    --container-color: hsl(228, 16%, 12%);
+}
 
 /*========== 
     Color changes in some parts of 
     the website, in dark theme 
 ==========*/
+.dark-theme .home__search,
+.dark-theme .swiper-button-prev,
+.dark-theme .swiper-button-next {
+    border: 3px solid var(--border-color);
+}
+
+.dark-theme .nav__menu,
+.dark-theme .home__img,
+.dark-theme .scrollup,
+.dark-theme .contact__img,
+.dark-theme .accordion-open .value__accordion-icon,
+.dark-theme .accordion-open .value__accordion-arrow {
+    box-shadow: none;
+}
+
+.dark-theme .value__orbe,
+.dark-theme .value__accordion-icon,
+.dark-theme .value__accordion-arrow,
+.dark-theme .contact__orbe,
+.dark-theme .subscribe__container,
+.dark-theme .contact__card i,
+.dark-theme .contact__card-button {
+    background-color: var(--container-color);
+}
+
+.dark-theme .logos__img img {
+    opacity: 0.5;
+}
+
+.dark-theme .subscribe__container {
+    border: 6px solid var(--border-color);
+}
+
+.dark-theme .subscribe__description {
+    color: var(--text-color);
+}
+
+.dark-theme::-webkit-scrollbar {
+    background-color: hsl(228, 4%, 15%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb {
+    background-color: hsl(228, 4%, 25%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(228, 4%, 45%);
+}
 
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+    /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
     max-width: 1024px;
     margin-left: 1.5rem;
@@ -222,6 +287,10 @@ button {
 
 .scroll-header .nav__logo {
     color: var(--first-color);
+}
+
+.scroll-header .change-theme {
+    color: var(--title-color);
 }
 
 /* Active link */
@@ -444,7 +513,6 @@ button {
 .swiper-button-next {
     right: calc(50% - 3rem);
 }
-
 
 /*=============== VALUE ===============*/
 .value__container {
